@@ -42,7 +42,7 @@ public class Main {
         properties.put(Environment.PASS, "root");
         properties.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
         properties.put(Environment.HBM2DDL_AUTO, "validate");
-        properties.put(Environment.SHOW_SQL, true);
+        //properties.put(Environment.SHOW_SQL, true);
 
         sessionFactory = new Configuration()
                 .addAnnotatedClass(Actor.class)
